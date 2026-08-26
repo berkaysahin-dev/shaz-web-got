@@ -82,7 +82,7 @@ const Hero = () => {
   const chapterTimelineRef = useRef(null)
   const prevChapter        = useRef(-1)
 
-  // ─── Draw Frame on Canvas with Aspect-Ratio Cover ──────────────────────────
+  // ─── Draw Frame on Canvas with Aspect-Ratio Cover & Retina Scaling ───────────
   const drawFrame = useCallback((frameIndex) => {
     const canvas = canvasRef.current
     if (!canvas) return
@@ -104,6 +104,8 @@ const Hero = () => {
     const centerShiftX = (cw - iw * ratio) / 2
     const centerShiftY = (ch - ih * ratio) / 2
 
+    ctx.imageSmoothingEnabled = true
+    ctx.imageSmoothingQuality = 'high'
     ctx.clearRect(0, 0, cw, ch)
     ctx.drawImage(img, 0, 0, iw, ih, centerShiftX, centerShiftY, iw * ratio, ih * ratio)
     currentFrameRef.current = frameIndex
@@ -165,8 +167,9 @@ const Hero = () => {
 
     const handleResize = () => {
       if (!canvasRef.current) return
-      canvasRef.current.width = window.innerWidth
-      canvasRef.current.height = window.innerHeight
+      const dpr = Math.min(window.devicePixelRatio || 1, 2)
+      canvasRef.current.width  = window.innerWidth * dpr
+      canvasRef.current.height = window.innerHeight * dpr
       drawFrame(currentFrameRef.current)
     }
 

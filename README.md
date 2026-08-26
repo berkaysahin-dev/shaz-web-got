@@ -4,9 +4,9 @@ An immersive, scroll-driven interactive web experience exploring the lore, Great
 
 ---
 
-## ✨ Features
+## Features
 
-- **60 FPS Canvas Scroll Experience:** Frame-by-frame cinematic sequence powered by HTML5 Canvas and GSAP ScrollTrigger for buttery-smooth performance across desktop and mobile devices.
+- **60 FPS Canvas Scroll Experience:** Frame-by-frame cinematic sequence powered by HTML5 Canvas and GSAP ScrollTrigger for smooth, high-fidelity performance across desktop and mobile devices.
 - **6-Chapter Narrative Progression:** Prologue, Winterfell, The Seven Kingdoms, King's Landing, A Thousand Blades, and The Iron Throne.
 - **The Great Houses of Westeros:** Interactive 3D tilt house cards featuring House Stark, Lannister, Targaryen, Baratheon, Greyjoy, and Tyrell with hover reveals and lore words.
 - **Valyrian Steel Armory:** Interactive blade inspector with stats, origins, historical wielders, and spell-forged lore for legendary weapons (Longclaw, Ice, Blackfyre, Dark Sister, Catspaw Dagger, Heartsbane).
@@ -15,7 +15,7 @@ An immersive, scroll-driven interactive web experience exploring the lore, Great
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** React 19
 - **Build Tool:** Vite
@@ -25,15 +25,15 @@ An immersive, scroll-driven interactive web experience exploring the lore, Great
 
 ---
 
-## ⚡ Performance Architecture
+## Performance Architecture
 
-Standard HTML5 `<video>` elements suffer from decoder latency and frame drops when scrubbed rapidly due to long keyframe intervals (GOP). 
+Standard HTML5 video elements suffer from decoder latency and frame drops when scrubbed rapidly due to long keyframe intervals (GOP). 
 
 This project solves that bottleneck by preloading an optimized WebP frame sequence into a memory buffer and rendering frames directly via `CanvasRenderingContext2D.drawImage()`. This achieves sub-millisecond draw times and a guaranteed 60+ FPS scroll rate regardless of user scroll speed.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -69,7 +69,7 @@ npm run preview
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 vision-web-got/
@@ -99,7 +99,7 @@ vision-web-got/
 
 ---
 
-## 📜 Credits
+## Credits
 
 - Designed & Developed with passion by **Shaz Vision** ([shazvision.com](https://shazvision.com)).
 - Inspired by the *A Song of Ice and Fire* universe created by George R.R. Martin and HBO.
