@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700&family=IM+Fell+English:ital@0;1&display=swap');
+
+.got-footer {
+  position: relative;
+  width: 100%;
+  background: #040302;
+  padding: 90px 24px 60px;
+  overflow: hidden;
+  border-top: 1px solid rgba(201, 168, 76, 0.15);
+  box-sizing: border-box;
+}
+
+.footer-bg-glow {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 250px;
+  background: radial-gradient(ellipse at 50% 0%, rgba(201, 168, 76, 0.08) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.footer-grain {
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px;
+  pointer-events: none;
+}
+
+.footer-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* ── Top ornament ── */
+.footer-top-ornament {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 36px;
+}
+
+.footer-ornament-line {
+  flex: 1;
+  max-width: 160px;
+  height: 1px;
+  background: linear-gradient(to right, transparent, rgba(201, 168, 76, 0.35));
+}
+
+.footer-ornament-line:last-child {
+  background: linear-gradient(to left, transparent, rgba(201, 168, 76, 0.35));
+}
+
+.footer-crest {
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(201, 168, 76, 0.4);
+  transform: rotate(45deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(10, 7, 5, 0.8);
+  box-shadow: 0 0 16px rgba(201, 168, 76, 0.15);
+}
+
+.footer-crest-symbol {
+  transform: rotate(-45deg);
+  font-size: 16px;
+  color: var(--gold, #c9a84c);
+  filter: drop-shadow(0 0 8px rgba(201, 168, 76, 0.6));
+}
+
+/* ── Brand section ── */
+.footer-brand-section {
+  margin-bottom: 32px;
+}
+
+.footer-brand-title {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  color: #f5e6c8;
+  text-shadow: 0 0 30px rgba(201, 168, 76, 0.25), 0 2px 10px rgba(0, 0, 0, 0.9);
+}
+
+.footer-brand-tagline {
+  font-family: 'IM Fell English', serif;
+  font-size: clamp(14px, 1.4vw, 17px);
+  font-style: italic;
+  color: #8c8273;
+  margin-top: 12px;
+  max-width: 600px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+/* ── Action links ── */
+.footer-links-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 36px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-link-btn {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--parchment, #f5e6c8);
+  background: rgba(201, 168, 76, 0.06);
+  border: 1px solid rgba(201, 168, 76, 0.25);
+  padding: 10px 20px;
+  text-decoration: none;
+  clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
+  transition: all 0.3s ease;
+}
+
+.footer-link-btn:hover {
+  background: rgba(201, 168, 76, 0.2);
+  border-color: #c9a84c;
+  color: #fff;
+  box-shadow: 0 0 16px rgba(201, 168, 76, 0.25);
+}
+
+.footer-scroll-top-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #0a0705;
+  background: #c9a84c;
+  border: none;
+  padding: 10px 22px;
+  cursor: pointer;
+  clip-path: polygon(6px 0%, 100% 0%, calc(100% - 6px) 100%, 0% 100%);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.footer-scroll-top-btn:hover {
+  background: #e8c97a;
+  box-shadow: 0 0 20px rgba(201, 168, 76, 0.4);
+  transform: translateY(-2px);
+}
+
+/* ── Lore divider ── */
+.footer-lore-divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  font-family: 'Cinzel', serif;
+  font-size: 9px;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #635848;
+  margin-bottom: 36px;
+  padding-top: 24px;
+  border-top: 1px solid rgba(201, 168, 76, 0.1);
+  width: 100%;
+}
+
+.lore-dot {
+  font-size: 6px;
+  color: rgba(201, 168, 76, 0.4);
+}
+
+/* ── Bottom copyright ── */
+.footer-bottom {
+  border-top: 1px solid rgba(201, 168, 76, 0.08);
+  padding-top: 24px;
+  width: 100%;
+}
+
+.footer-copyright {
+  font-family: 'Cinzel', serif;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: #8c8273;
+  margin-bottom: 8px;
+}
+
+.footer-copyright a {
+  color: #c9a84c;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.footer-copyright a:hover {
+  color: #e8c97a;
+  text-decoration: underline;
+}
+
+.footer-disclaimer {
+  font-family: 'IM Fell English', serif;
+  font-size: 11px;
+  font-style: italic;
+  color: #4a4235;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (max-width: 640px) {
+  .got-footer {
+    padding: 60px 16px 40px;
+  }
+  .footer-lore-divider {
+    gap: 8px;
+    font-size: 8px;
+  }
+}
