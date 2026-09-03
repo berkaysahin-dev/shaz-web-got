@@ -27,7 +27,7 @@ An immersive, scroll-driven interactive web experience exploring the lore, Great
 
 ## Performance Architecture
 
-Standard HTML5 video elements suffer from decoder latency and frame drops when scrubbed rapidly due to long keyframe intervals (GOP). 
+Standard HTML5 video elements suffer from decoder latency and frame drops when scrubbed rapidly due to long keyframe intervals (GOP).
 
 This project solves that bottleneck by preloading an optimized WebP frame sequence into a memory buffer and rendering frames directly via `CanvasRenderingContext2D.drawImage()`. This achieves sub-millisecond draw times and a guaranteed 60+ FPS scroll rate regardless of user scroll speed.
 
@@ -61,7 +61,6 @@ This project solves that bottleneck by preloading an optimized WebP frame sequen
 4. Open `http://localhost:5173` in your browser.
 
 ### Production Build
-
 ```bash
 npm run build
 npm run preview
@@ -70,7 +69,6 @@ npm run preview
 ---
 
 ## Project Structure
-
 ```
 vision-web-got/
 ├── public/
