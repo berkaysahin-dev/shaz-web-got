@@ -49,8 +49,8 @@ This project solves that bottleneck by preloading an optimized WebP frame sequen
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/berkaysahin-dev/vision-web-got.git
-   cd vision-web-got
+   git clone https://github.com/berkaysahin-dev/shaz-web-got.git
+   cd shaz-web-got
    ```
 
 2. Install dependencies:
@@ -75,7 +75,7 @@ npm run preview
 
 ## Project Structure
 ```
-vision-web-got/
+shaz-web-got/
 ├── public/
 │   ├── frames/         # Extracted 60FPS WebP frame sequence
 │   ├── images/         # House sigils and graphics
@@ -104,5 +104,5 @@ vision-web-got/
 
 ## Credits
 
-- Designed & Developed with passion by **Shaz Vision** ([shazvision.com](https://shazvision.com)).
+- Designed & Developed with passion by **Shaz Agency** ([shazagency.com](https://shazagency.com)).
 - Inspired by the *A Song of Ice and Fire* universe created by George R.R. Martin and HBO.
