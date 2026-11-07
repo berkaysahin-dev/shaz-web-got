@@ -77,8 +77,7 @@ npm run preview
 vision-web-got/
 ├── public/
 │   ├── frames/         # Ayıklanmış 60FPS WebP kare sekansı
-│   ├── images/         # Hanedan mühürleri ve grafikler
-│   └── video/          # Orijinal referans medya
+│   └── images/         # Hanedan mühürleri ve grafikler
 ├── src/
 │   ├── components/
 │   │   ├── Hero.jsx        # Canvas kaydırma sekansı ve bölüm HUD'ı
@@ -105,3 +104,10 @@ vision-web-got/
 
 - **Shaz Vision** ([shazvision.com](https://shazvision.com)) tarafından tutkuyla tasarlandı ve geliştirildi.
 - George R.R. Martin ve HBO tarafından yaratılan *Buz ve Ateşin Şarkısı* evreninden ilham alınmıştır.
+---
+
+## Yasal Uyarı
+
+Bu proje resmi olmayan, ticari amaç taşımayan bir hayran projesidir. HBO, Warner Bros. Discovery veya George R.R. Martin ile bir bağlantısı yoktur ve onlar tarafından onaylanmamıştır. *Game of Thrones*, hanedan adları ve armaları ilgili hak sahiplerinin ticari markaları ve/veya telif hakkıyla korunan eserleridir.
+
+Bu depodaki MIT lisansı **yalnızca kaynak kodu** kapsar; `public/images/` içindeki üçüncü taraf isim, logo, arma ve görseller üzerinde hiçbir hak vermez. Projeyi çatallayıp ticari olarak yayınlayacaksanız bu görselleri kendi görsellerinizle değiştirin.

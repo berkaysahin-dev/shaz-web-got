@@ -78,8 +78,7 @@ npm run preview
 shaz-web-got/
 ├── public/
 │   ├── frames/         # Extracted 60FPS WebP frame sequence
-│   ├── images/         # House sigils and graphics
-│   └── video/          # Original reference media
+│   └── images/         # House sigils and graphics
 ├── src/
 │   ├── components/
 │   │   ├── Hero.jsx        # Canvas scroll sequence & chapter HUD
@@ -104,5 +103,12 @@ shaz-web-got/
 
 ## Credits
 
-- Designed & Developed with passion by **Shaz Agency** ([shazagency.com](https://shazagency.com)).
+- Designed & developed by **Shaz Vision** ([shazvision.com](https://shazvision.com)).
 - Inspired by the *A Song of Ice and Fire* universe created by George R.R. Martin and HBO.
+---
+
+## Disclaimer
+
+This is an unofficial, non-commercial fan project. It is not affiliated with, endorsed by, or sponsored by HBO, Warner Bros. Discovery, or George R.R. Martin. *Game of Thrones*, the names of the Great Houses, and their sigils are trademarks and/or copyrighted works of their respective owners.
+
+The MIT license in this repository covers the **source code only**. It does not grant any rights to third-party names, logos, sigils, or other artwork in `public/images/`. If you fork or deploy this project commercially, replace those assets with your own.

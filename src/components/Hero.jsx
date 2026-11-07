@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState, useCallback } from 'react'
+import { useEffect, useRef, useState, useCallback } from 'react'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import './Hero.css'
@@ -187,6 +187,14 @@ const Hero = () => {
       const img = new Image()
       const formattedNumber = String(i).padStart(4, '0')
       img.src = `/frames/frame_${formattedNumber}.webp`
+
+      // A failed frame must still advance the loader, otherwise one 404 or
+      // flaky mobile request leaves the preloader stuck forever.
+      img.onerror = () => {
+        loadedCount++
+        setLoadPercent(Math.round((loadedCount / TOTAL_FRAMES) * 100))
+        if (loadedCount >= Math.min(30, TOTAL_FRAMES)) setIsReady(true)
+      }
 
       img.onload = () => {
         loadedCount++
