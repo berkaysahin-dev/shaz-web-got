@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shazvision.com/sitemap.xml
+Sitemap: https://shaz.vision/sitemap.xml

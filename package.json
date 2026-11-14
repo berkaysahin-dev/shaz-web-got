@@ -2,8 +2,8 @@
   "name": "vision-web-got",
   "private": true,
   "version": "1.0.0",
-  "author": "Shaz Vision (https://shazvision.com)",
-  "homepage": "https://shazvision.com",
+  "author": "Shaz Vision (https://shaz.vision)",
+  "homepage": "https://shaz.vision",
   "type": "module",
   "scripts": {
     "dev": "vite",

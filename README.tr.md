@@ -106,7 +106,7 @@ vision-web-got/
 
 ## Emeği Geçenler
 
-- **Shaz Vision** ([shazvision.com](https://shazvision.com)) tarafından tutkuyla tasarlandı ve geliştirildi.
+- **Shaz Vision** ([shaz.vision](https://shaz.vision)) tarafından tutkuyla tasarlandı ve geliştirildi.
 - George R.R. Martin ve HBO tarafından yaratılan *Buz ve Ateşin Şarkısı* evreninden ilham alınmıştır.
 ---
 

@@ -65,12 +65,12 @@ const Footer = () => {
         <div className="footer-bottom">
           <p className="footer-copyright">
             Crafted with passion by{' '}
-            <a href="https://shazvision.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://shaz.vision" target="_blank" rel="noopener noreferrer">
               Shaz Vision
             </a>{' '}
             ·{' '}
-            <a href="https://shazvision.com" target="_blank" rel="noopener noreferrer">
-              shazvision.com
+            <a href="https://shaz.vision" target="_blank" rel="noopener noreferrer">
+              shaz.vision
             </a>
           </p>
           <p className="footer-disclaimer">

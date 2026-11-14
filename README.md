@@ -107,7 +107,7 @@ shaz-web-got/
 
 ## Credits
 
-- Designed & developed by **Shaz Vision** ([shazvision.com](https://shazvision.com)).
+- Designed & developed by **Shaz Vision** ([shaz.vision](https://shaz.vision)).
 - Inspired by the *A Song of Ice and Fire* universe created by George R.R. Martin and HBO.
 ---
 
