@@ -4,6 +4,10 @@
   <a href="README.md"><b>English</b></a> | <a href="README.tr.md"><b>Türkçe</b></a>
 </p>
 
+<p align="center">
+  <img src="docs/screenshot.jpg" alt="Game of Thrones — Chronicles of Westeros opening screen" width="100%" />
+</p>
+
 
 An immersive, scroll-driven interactive web experience exploring the lore, Great Houses, Valyrian steel armory, and legendary epochs of Westeros.
 

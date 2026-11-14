@@ -4,6 +4,10 @@
   <a href="README.md"><b>English</b></a> | <a href="README.tr.md"><b>Türkçe</b></a>
 </p>
 
+<p align="center">
+  <img src="docs/screenshot.jpg" alt="Game of Thrones — Westeros Günlükleri açılış ekranı" width="100%" />
+</p>
+
 Westeros'un kadim efsanelerini, Büyük Hanedanlıklarını, Valyria çeliği cephaneliğini ve efsanevi çağlarını keşfeden, kaydırma odaklı, sürükleyici ve etkileşimli bir web deneyimi.
 
 ---
